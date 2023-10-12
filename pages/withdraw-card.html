@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+<!-- Favicon icon-->
+<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+
+<!-- Libs CSS -->
+
+
+<link href="../assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/libs/dropzone/dist/dropzone.css"  rel="stylesheet">
+<link href="../assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="../assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../assets/css/theme.min.css">
+  <title>Profile Overview | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+</head>
+
+<body class="bg-light"> 
+  <div id="db-wrapper">
+    <!-- navbar vertical -->
+     <!-- Sidebar -->
+ <nav class="navbar-vertical navbar">
+    <div class="nav-scroller">
+        <!-- Brand logo -->
+        <!-- <a class="navbar-brand" href="../index.html">
+            <img src="../assets/images/brand/logo/logo.svg" alt="" />
+        </a> -->
+        <br>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav flex-column" id="sideNavbar">
+            <!-- <li class="nav-item">
+                <a class="nav-link has-arrow " href="../index.html">
+                    <i data-feather="home" class="nav-icon icon-xs me-2"></i>  Dashboard
+                </a>
+            </li> -->
+
+
+            <!-- Nav item -->
+            <li class="nav-item">
+                <div class="navbar-heading">MENU</div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../pages/profile.html">
+                    <i data-feather="user" class="nav-icon icon-xs me-2"></i>  Profile
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../pages/stock-card.html">
+                    <i data-feather="clipboard" class="nav-icon icon-xs me-2"></i>  Stock Card
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../pages/activity-log.html">
+                    <i data-feather="heart" class="nav-icon icon-xs me-2"></i>  Activity Log
+                </a>
+            </li>
+
+
+             <!-- Nav item -->
+             <li class="nav-item">
+                <a class="nav-link has-arrow " href="#!" data-bs-toggle="collapse" data-bs-target="#navPages" aria-expanded="false" aria-controls="navPages">
+                    <i data-feather="layers" class="nav-icon icon-xs me-2"></i> In House
+                </a>
+
+                <div id="navPages" class="collapse  show " data-bs-parent="#sideNavbar">
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item">
+                            <a class="nav-link  active " href="../pages/withdraw.html">
+                                Withdraw
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link has-arrow   "  href="#" >
+                                Deposit
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/item-inventory.html">
+                                Item Inventory
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/employee-list.html">
+                                Employee List
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/customer-list.html">
+                                Customer List
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </li>
+
+        </ul>
+    </div>
+</nav>
+    <!-- page content -->
+    <div id="page-content">
+      <div class="header @@classList">
+  <!-- navbar -->
+  <nav class="navbar-classic navbar navbar-expand-lg">
+    <a id="nav-toggle" href="#"><i
+        data-feather="menu"
+
+        class="nav-icon me-2 icon-xs"></i></a>
+    <div class="ms-lg-3 d-none d-md-none d-lg-block">
+      <!-- Form -->
+      <!-- <form class="d-flex align-items-center">
+        <input type="search" class="form-control" placeholder="Search" />
+      </form> -->
+    </div>
+    <!--Navbar nav -->
+    <ul class="navbar-nav navbar-right-wrap ms-auto d-flex nav-top-wrap">
+      <!-- List -->
+      <li class="dropdown ms-2">
+        <a class="rounded-circle" href="#" role="button" id="dropdownUser"
+          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="avatar avatar-md ">
+            <img alt="avatar" src="../assets/images/avatar/co_banky.PNG"
+              class="rounded-circle" />
+          </div>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="dropdownUser">
+          <div class="px-4 pb-0 pt-2">
+
+
+            <div class="lh-1 ">
+              <h5 class="mb-1"> Co Banky</h5>
+              <a href="../pages/profile.html" class="text-inherit fs-6">View my profile</a>
+            </div>
+            <div class=" dropdown-divider mt-3 mb-2"></div>
+          </div>
+
+          <ul class="list-unstyled">
+
+            <li>
+              <a class="dropdown-item" href="../pages/stock-card.html">
+                <i class="me-2 icon-xxs dropdown-item-icon" data-feather="shopping-bag"></i>
+                Stock Card
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/activity-log.html">
+                <i class="me-2 icon-xxs dropdown-item-icon" data-feather="monitor"></i>
+                Activity Logged
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/profile.html">
+                <i class="me-2 icon-xxs dropdown-item-icon" data-feather="user"></i>
+                Edit Profile
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../index.html">
+                <i class="me-2 icon-xxs dropdown-item-icon"
+                  data-feather="power"></i>Sign Out
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
+      <!-- Container fluid -->
+      <div class="container-fluid p-6">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <!-- Page header -->
+            <div class="border-bottom pb-4 mb-4 ">
+              <h3 class="mb-0 fw-bold">Withdraw > S.Nuna > Co_Banky</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+            <a href="../pages/withdraw-sale-nuna.html" class="btn btn-outline-secondary mb-2"><i class="icon-xs" data-feather="rotate-ccw"></i> Back</a>
+          </div>
+        </div>
+
+        <!-- content -->
+        <div class="py-6">
+          <!-- row -->
+          <div class="row">
+            
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12 mb-6">
+              <!-- card -->
+              <div class="card mb-4">
+                <!-- card body -->
+                <div class="card-body">
+                  <!-- card title -->
+                  <h4 class="card-title">Co_Banky</h4>
+
+                  <div class="d-flex justify-content-between
+                      align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                      <!-- img -->
+                      <div>
+                        <img src="../assets/images/beverage/regency.jpg" class="rounded-circle avatar-xl" alt="">
+                      </div>
+                      <!-- text -->
+                      <div class="ms-3 ">
+                        <h5 class="mb-1">Regency</h5>
+                        <p class="text-muted mb-0 fs-5 text-muted">Remaining 3 Units</p>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="../pages/withdraw-card-1.html" class="text-muted text-primary-hover">
+                        <i class="me-4 icon-xs" data-feather="search"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between
+                      align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                      <!-- img -->
+                      <div>
+                        <img src="../assets/images/beverage/singha.PNG" class="rounded-circle avatar-xl" alt="">
+                      </div>
+                      <!-- content -->
+                      <div class="ms-3 ">
+                        <h5 class="mb-1">Singha Beer</h5>
+                        <p class="text-muted mb-0 fs-5 text-muted">Remaining 3 Unit</p>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#" class="text-muted text-primary-hover">
+                        <i class="me-4 icon-xs" data-feather="search"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between
+                      align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                      <!-- img -->
+                      <div>
+                        <img src="../assets/images/beverage/heineken.png" class="rounded-circle avatar-xl" alt="">
+                      </div>
+                      <!-- text -->
+                      <div class="ms-3 ">
+                        <h5 class="mb-1">Heineken Beer</h5>
+                        <p class="text-muted mb-0 ">Remaining 2 Units</p>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#" class="text-muted text-primary-hover">
+                        <i class="me-4 icon-xs" data-feather="search"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <!-- Libs JS -->
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/libs/feather-icons/dist/feather.min.js"></script>
+<script src="../assets/libs/prismjs/prism.js"></script>
+<script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+<script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+
+
+
+<!-- Theme JS -->
+<script src="../assets/js/theme.min.js"></script>
+</body>
+
+</html>
